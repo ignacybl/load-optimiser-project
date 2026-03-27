@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d886042-4b5f-4c22-b480-58bb82011fad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/configuration/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/configuration/LoadingPlanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/configuration/LoadingPlanConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/controller/LoadingPlanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/controller/LoadingPlanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/controller/PackageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/controller/PackageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/controller/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/dto/LoadingPlanRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/dto/LoadingPlanResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/dto/PackageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/dto/PackageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/dto/VehicleRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/dto/VehicleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/entity/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/entity/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/entity/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/enums/PackageCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/enums/Priority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/enums/StrategyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/enums/VehicleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/kafka/LoadingPlanListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/kafka/LoadingPlanListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/mapper/LoadingPlanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/mapper/LoadingPlanMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/mapper/PackageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/mapper/PackageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/mapper/VehicleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/mapper/VehicleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/service/LoadingPlanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/service/LoadingPlanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/service/PackageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/service/PackageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/FirstFitDecreasingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/FirstFitDecreasingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/GreedyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/GreedyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/LoadOptimiserStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/LoadOptimiserStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/SmartStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/java/pl/ignacy/loadoptimiser/strategy/SmartStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-optimiser/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/load-optimiser/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/load-optimiser" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ignacybl"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ignacybl/load-optimiser.git",
+    "accountId": "397f0701-b0f6-4639-bb26-c9a5bd751607"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3B7oqvNG9S7fwKpdXGkJFXTYYnl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ignacyblazejowski/Desktop/LOAD-OPTIMISER-PROJECT",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d886042-4b5f-4c22-b480-58bb82011fad" name="Changes" comment="" />
+      <created>1773849663820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773849663820</updated>
+    </task>
+    <servers />
+  </component>
+</project>
