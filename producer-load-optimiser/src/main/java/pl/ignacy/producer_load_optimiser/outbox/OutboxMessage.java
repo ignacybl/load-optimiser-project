@@ -8,7 +8,7 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "outbox")
+@Table(name = "outbox", indexes = {@Index(name = "idx_outbox_status", columnList = "status")})
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,6 +20,9 @@ public class OutboxMessage {
 
     @Column(nullable = false)
     private String topic;
+
+    @Column(nullable = false)
+    private String requestId;
 
     @Column(nullable = false, columnDefinition = "TEXT")
     private String payload;
@@ -33,8 +36,9 @@ public class OutboxMessage {
 
     private LocalDateTime sentAt;
 
-    public OutboxMessage(String topic, String payload) {
+    public OutboxMessage(String topic, String requestId, String payload) {
         this.topic = topic;
+        this.requestId = requestId;
         this.payload = payload;
     }
 }
